@@ -7,9 +7,9 @@ $this->title = 'Home';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Control de actividades</h1>
+        <h1>PUCESE</h1>
 
-        <p class="lead">PUCESE</p>
+        <p class="lead">App Frontend</p>
 
   
     </div>

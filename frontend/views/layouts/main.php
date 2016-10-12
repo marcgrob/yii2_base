@@ -27,7 +27,7 @@ AppAsset::register($this);
         <div class="wrap">
             <?php
             NavBar::begin([
-                'brandLabel' => 'Control de actividades',
+                'brandLabel' => 'App',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
@@ -44,7 +44,7 @@ AppAsset::register($this);
             } else {
                 $menuItems = [
                     ['label' => 'Inicio', 'url' => ['/site/index']],
-                    ['label' => 'Actividades', 'url' => ['/actividades']],
+  
                     //['label' => 'BACKEND', 'url' => '../../backend/web','visible' => Yii::$app->user->identity->isAdmin || Yii::$app->user->can('admin'),],
                 ];
          $menuItems[] = '<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Perfil <b class="caret"></b></a>'
