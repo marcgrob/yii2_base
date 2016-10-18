@@ -58,6 +58,9 @@ AppAsset::register($this);
                         ['label' => 'Accesos', 'url' => ['/audit/entry'],],
                         
                         ['label' => 'Acciones', 'url' => ['/audit/trail'],],
+
+                         ['label' => 'Inicio de sesión', 'url' => ['/logs/index'],],
+
                     ],
                 ];
 
